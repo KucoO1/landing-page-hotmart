@@ -17,7 +17,9 @@ export default function App() {
         <div className="text-2xl sm:text-3xl font-bold text-amber-400">LuxuryPetBiz</div>
         <div className="flex gap-3 sm:gap-4">
           <button className="px-6 py-2 bg-amber-600 hover:bg-amber-700 rounded-md font-medium transition-colors text-base sm:text-lg">
-            <a href="https://pay.hotmart.com/G101668978F?sck=HOTMART_PRODUCT_PAGE&off=i5djmkj6&hotfeature=32&_gl=1*tyeepi*_ga*MjAwODk3MDA1LjE3NTUwMTYxMDM.*_ga_GQH2V1F11Q*czE3NTY4MzM4MTAkbzEwJGcxJHQxNzU2ODM0MDkxJGo2MCRsMCRoMA..*_gcl_au*MTcyMTU0NTc4NC4xNzU1MDE2MTAzLjMzNDAyMDI4OC4xNzU2ODMzODIxLjE3NTY4MzQwNjM.&bid=1756834096562">Buy Now</a>
+            <a href="https://pay.hotmart.com/G101668978F">
+              🔥 Get Access Now
+            </a>
           </button>
         </div>
       </nav>
@@ -30,11 +32,13 @@ export default function App() {
         transition={{ duration: 1 }}
       >
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold leading-tight text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 drop-shadow-lg">
-          How to Build a Million Dollar Business in the US Luxury Pet Market
+          Stop Struggling & Start Building a Million-Dollar Pet Business
         </h1>
         <p className="mt-6 text-base sm:text-lg md:text-xl text-gray-300">
-          Discover how to tap into the multi-billion dollar luxury pet market in the US
-          and build a <span className="font-semibold text-amber-300">highly profitable business</span> with our exclusive guide.
+          While you{" "}
+          <span className="text-red-400 font-semibold">hesitate</span>, others are making fortunes in the US luxury pet market.  
+          Don’t waste years guessing strategies — grab the{" "}
+          <span className="font-semibold text-amber-300">step-by-step roadmap</span> to dominate and profit big.
         </p>
 
         <motion.div
@@ -44,12 +48,15 @@ export default function App() {
           transition={{ duration: 0.8, delay: 0.5 }}
         >
           <a
-            href="https://pay.hotmart.com/G101668978F?sck=HOTMART_PRODUCT_PAGE&off=i5djmkj6&hotfeature=32&_gl=1*tyeepi*_ga*MjAwODk3MDA1LjE3NTUwMTYxMDM.*_ga_GQH2V1F11Q*czE3NTY4MzM4MTAkbzEwJGcxJHQxNzU2ODM0MDkxJGo2MCRsMCRoMA..*_gcl_au*MTcyMTU0NTc4NC4xNzU1MDE2MTAzLjMzNDAyMDI4OC4xNzU2ODMzODIxLjE3NTY4MzQwNjM.&bid=1756834096562"
+            href="https://pay.hotmart.com/G101668978F"
             className="px-8 py-4 rounded-2xl font-bold text-lg sm:text-xl shadow-lg bg-gradient-to-r from-amber-500 to-amber-700 hover:from-amber-600 hover:to-amber-800 transition-all transform hover:scale-105"
           >
-            📖 Get Your Copy Now - $20
+            🚀 Yes! I Want the $1M Pet Biz Guide – Only $20
           </a>
         </motion.div>
+        <p className="mt-4 text-sm text-gray-400">
+          ⚠️ Every day you wait, competitors are stealing your clients.
+        </p>
       </motion.div>
 
       {/* Imagens do Hero */}
@@ -65,14 +72,14 @@ export default function App() {
           <div className="absolute top-4 sm:top-6 -left-4 sm:-left-6 w-56 sm:w-72 h-80 sm:h-96 bg-gradient-to-br from-amber-700 to-amber-900 rounded-2xl shadow-xl transform -rotate-2 flex flex-col justify-center items-center p-6 sm:p-8">
             <div className="text-center mb-6">
               <div className="text-xl sm:text-2xl font-bold text-white mb-2">LUXURY PET MARKET</div>
-              <div className="text-amber-300">Exclusive Guide</div>
+              <div className="text-amber-300">Millionaire Blueprint</div>
             </div>
             <div className="w-16 sm:w-20 h-16 sm:h-20 rounded-full bg-amber-800 flex items-center justify-center mb-6 border-4 border-amber-600">
               <span className="text-amber-200 text-xl sm:text-2xl">$</span>
             </div>
             <div className="text-amber-100 text-center">
-              <div className="text-base sm:text-lg font-medium">Premium Insights</div>
-              <div className="text-xs sm:text-sm mt-2">For Serious Entrepreneurs</div>
+              <div className="text-base sm:text-lg font-medium">Proven Secrets</div>
+              <div className="text-xs sm:text-sm mt-2">For Ambitious Entrepreneurs</div>
             </div>
           </div>
         </div>
@@ -85,7 +92,7 @@ export default function App() {
             className="rounded-2xl shadow-2xl border-4 border-amber-500/40 w-60 sm:w-80 h-80 sm:h-96 object-cover"
           />
           <div className="absolute -bottom-2 sm:-bottom-4 -right-2 sm:-right-4 bg-amber-700 text-white px-3 sm:px-4 py-2 rounded-lg shadow-lg text-xs sm:text-base">
-            Premium Content Inside
+            🔒 Exclusive Content Inside
           </div>
         </div>
       </motion.div>
@@ -123,19 +130,19 @@ export default function App() {
         {[
           {
             title: "Billion-Dollar Market",
-            desc: "Learn how to exploit a sector growing over 15% annually in the US.",
+            desc: "Stop wasting time on small ideas. Learn how to dominate a $100B+ market growing 15% yearly.",
             icon: "📈",
             img: "/dinheiro.png",
           },
           {
             title: "Premium Clients",
-            desc: "Discover how to attract pet owners willing to spend generously for exclusivity.",
+            desc: "Get clients who happily pay 3x more for exclusivity. Stop chasing broke customers.",
             icon: "🎯",
             img: "/clientes.png",
           },
           {
             title: "Proven Strategies",
-            desc: "Use practical techniques to structure a million-dollar business step by step.",
+            desc: "No fluff. Just proven, battle-tested strategies to launch and scale fast.",
             icon: "🔑",
             img: "/estrategia.png",
           },
@@ -172,13 +179,13 @@ export default function App() {
             {
               name: "Sarah Johnson",
               title: "Founder, Posh Paws",
-              quote: "This guide perfectly captures the nuances of the luxury pet market. The business strategies are invaluable for any entrepreneur in this space.",
+              quote: "I was stuck chasing clients with no money. This guide showed me how to attract premium buyers – now I charge 3x more.",
               avatar: "SJ"
             },
             {
               name: "Michael Torres",
               title: "Investor, Pet Venture Capital",
-              quote: "The most comprehensive analysis of the high-end pet market I've encountered. The investment strategies alone are worth the price.",
+              quote: "If you’re serious about building wealth, this is the blueprint. I’ve invested millions thanks to these strategies.",
               avatar: "MT"
             }
           ].map((testimonial, index) => (
@@ -206,18 +213,20 @@ export default function App() {
         transition={{ delay: 1.4 }}
       >
         <h2 className="text-2xl sm:text-3xl font-extrabold text-amber-400 mb-4">
-          Exclusive Offer - Limited Time
+          🚨 Limited Time – Don’t Miss Out
         </h2>
         <p className="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8">
-          The knowledge in this guide can <span className="font-semibold text-amber-300">radically change your financial future</span>.
-          This is your chance to enter one of the world's most lucrative markets.
+          This is your chance to{" "}
+          <span className="font-semibold text-amber-300">escape mediocrity</span>  
+          and tap into one of the{" "}
+          <span className="text-amber-400 font-bold">most profitable markets on Earth</span>.
         </p>
         <a
           id="purchase"
-          href="https://pay.hotmart.com/G101668978F?sck=HOTMART_PRODUCT_PAGE&off=i5djmkj6&hotfeature=32&_gl=1*tyeepi*_ga*MjAwODk3MDA1LjE3NTUwMTYxMDM.*_ga_GQH2V1F11Q*czE3NTY4MzM4MTAkbzEwJGcxJHQxNzU2ODM0MDkxJGo2MCRsMCRoMA..*_gcl_au*MTcyMTU0NTc4NC4xNzU1MDE2MTAzLjMzNDAyMDI4OC4xNzU2ODMzODIxLjE3NTY4MzQwNjM.&bid=1756834096562"
+          href="https://pay.hotmart.com/G101668978F"
           className="px-8 sm:px-10 py-4 rounded-2xl font-bold text-xl sm:text-2xl shadow-2xl bg-gradient-to-r from-amber-500 to-amber-700 hover:from-amber-600 hover:to-amber-800 transition-all transform hover:scale-105 inline-block"
         >
-          🚀 Get Your Guide Now
+          💎 Get Instant Access – Only $20
         </a>
       </motion.div>
 
@@ -231,10 +240,10 @@ export default function App() {
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 text-amber-300">Frequently Asked Questions</h2>
         <div className="space-y-4 sm:space-y-6">
           {[
-            { q: "Who is this guide for?", a: "Aspiring entrepreneurs, existing pet business owners looking to premiumize their offerings, and investors interested in the lucrative pet industry." },
-            { q: "What will I learn from this guide?", a: "You'll learn how to identify opportunities in the luxury pet market, develop premium products/services, target affluent customers, price for profit, and scale your business." },
-            { q: "Is there a money-back guarantee?", a: "Yes, we offer a 30-day money-back guarantee if you're not completely satisfied with the content." },
-            { q: "How will I receive the guide?", a: "Immediately after purchase, you'll get instant access to the digital version (PDF, ePub, Mobi). You'll also receive lifetime updates to the content." },
+            { q: "Who is this guide for?", a: "Ambitious entrepreneurs tired of small profits, pet business owners who want to scale, and investors ready to make serious money." },
+            { q: "What will I learn?", a: "Exactly how to find premium opportunities, attract wealthy clients, price high-ticket, and scale fast." },
+            { q: "Is there a guarantee?", a: "Yes. 30-day money-back guarantee. If you don’t see value, you don’t pay." },
+            { q: "How do I receive it?", a: "Instant digital access (PDF, ePub, Mobi) + lifetime updates." },
           ].map((faq, index) => (
             <div key={index} className="bg-gradient-to-b from-amber-900/10 to-black p-4 sm:p-6 rounded-xl border border-amber-800/50">
               <h3 className="text-lg sm:text-xl font-semibold text-amber-400 mb-2 sm:mb-3">{faq.q}</h3>
@@ -251,14 +260,18 @@ export default function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.8 }}
       >
-        <h2 className="text-2xl sm:text-3xl font-bold text-amber-400 mb-4 sm:mb-6">Ready to Build Your Luxury Pet Business?</h2>
-        <p className="text-base sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">Join hundreds of successful entrepreneurs who have transformed their business with our guide</p>
+        <h2 className="text-2xl sm:text-3xl font-bold text-amber-400 mb-4 sm:mb-6">Ready to Join the Pet Millionaires?</h2>
+        <p className="text-base sm:text-xl text-gray-300 mb-6 sm:mb-8 max-w-2xl mx-auto">
+          Don’t let this opportunity slip away.{" "}
+          <span className="text-amber-300 font-semibold">Hundreds are already profiting</span>.  
+          The next success story could be yours.
+        </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://pay.hotmart.com/G101668978F?sck=HOTMART_PRODUCT_PAGE&off=i5djmkj6&hotfeature=32&_gl=1*tyeepi*_ga*MjAwODk3MDA1LjE3NTUwMTYxMDM.*_ga_GQH2V1F11Q*czE3NTY4MzM4MTAkbzEwJGcxJHQxNzU2ODM0MDkxJGo2MCRsMCRoMA..*_gcl_au*MTcyMTU0NTc4NC4xNzU1MDE2MTAzLjMzNDAyMDI4OC4xNzU2ODMzODIxLjE3NTY4MzQwNjM.&bid=1756834096562"
+            href="https://pay.hotmart.com/G101668978F"
             className="px-8 py-4 rounded-xl font-bold text-base sm:text-lg bg-gradient-to-r from-amber-500 to-amber-700 hover:from-amber-600 hover:to-amber-800 transition-all"
           >
-            Get Instant Access - $20
+            🚀 Yes, I Want My $1M Pet Biz Guide – $20
           </a>
         </div>
       </motion.div>
